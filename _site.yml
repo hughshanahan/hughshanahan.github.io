@@ -1,0 +1,21 @@
+name: "Hugh Shanahan Home page"
+navbar:
+  title: "HOME"
+  left:
+    - text: "CODATA-RDA Schools"
+      href: CODATA-RDA.html
+    - text: "FAIRsFAIR"
+      href: fairsfair.html
+    - text: "Presentations"
+      href: presentations.html
+    - text: "Research"
+      href: research.html
+    - text: "Courses that I teach"
+      href: courses.html
+output_dir: "."
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+#    include:
+#      after_body: _footer.html
