@@ -1,30 +1,32 @@
 ---
 title: "Proposal to run a BoF on Notebooks at RDA Helsinki"
+output: pdf_document
 ---
 
 ## TL;DR 
-I am putting together a proposal to run a BoF session on Notebooks (i.e. discussions on Jupyter and myBinder but if this is too narrow a scope please say so) at 
+A proposal is being put together to run a BoF session on Notebooks (i.e. discussions on Jupyter and myBinder but if this is too narrow a scope please say so) at 
 [RDA Helsinki](https://www.rd-alliance.org/rda-14th-plenary-helsinki-espoo)
 which will run from 23rd-25th of October.
 The deadline for the proposal is the 27th June. 
 
-If you are interested in getting involved, then please email me 
-at 
+If you are interested in getting involved, attending the meeting or have suggestions for discussion topics, then please either email 
 
-Hugh dot Shanahan at rhul dot ac dot uk. 
+Hugh dot Shanahan at rhul dot ac dot uk (or tweet at @HughShanahan)
+or do a pull request on this document.
 
 
 ## Introduction
-Notebooks, specifically Jupyter notebooks (but also notebooks based on Rmarkdown) are generating a great deal of excitement and are potentially a significant step forward in terms of reproducibility, education, code documentation and publications. 
+Notebooks, specifically Jupyter notebooks (but also notebooks based on Rmarkdown) are generating a great deal of excitement and are potentially a significant step forward in terms of reproducibility, education, code documentation and academic publishing. A recent paper [@pimentel_large-scale_nodate] found nearly 1.2 Million unique notebooks just going through github.
 
-More recently the deployment of sites such as JupyterHub, myBinder and EGI notebooks mean that notebooks can be deployed on a cloud and hence obviates 
+More recently the deployment of sites such as [JupyterHub](https://jupyter.org/hub), [myBinder](https://gke.mybinder.org/) and [EGI notebooks](https://notebooks.egi.eu/hub/login) mean that notebooks can be deployed on a cloud and hence obviates 
 issues with installed libraries. One potential result of this is that it would represent the easiest pathway for users to use 
 cloud computing resources for research which could transform the use
 of such resources. It is important that initiatives such as EOSC become more
 aware of such initiatives at a policy level. 
 
 
-As we get to a position where research computing is increasingly cloud-based this will be key and is worth dicussing at the RDA. 
+## Proposal 
+Details of how to apply for a BoF can found [here](https://www.rd-alliance.org/14th-plenary-bof-session-application-form). The application is itself relatively short though it's worth looking carefully at the criteria that are set. It's important to make sure it matches the RDA's mission and that it's not simply a set of talks but that there's room for discussion. 
 
 
 ## Possible discussion points for BoF
@@ -33,11 +35,15 @@ BoF's at the RDA are allocated 90 minutes. The following are a set of possible t
 
 
 ### Notebook citation
-Given the profusion of notebooks it is clear that a system of enabling citation of notebooks needs to be implemented. In many respects this 
-represents an opportunity as the technology is comparatively new and 
+Given the profusion of notebooks it is clear that a system of enabling the citation of notebooks needs to be implemented. In many respects this 
+represents an opportunity as the infrastructure behind notebooks is comparatively new and 
 hence potentially easily adapted to follow citations guidelines for 
-the Force 11 software citation group. 
+the Force 11 software citation group and corresponding software citation group
+in the RDA.
 
+### Influencing policy 
+The EGI already successfully deployed a notebook solution. Can the functionality of Binder be similarly deployed? How do notebooks fit into the 
+EOSC vision and other similar platforms? If not what steps can be made to influence thinking in this area. 
 
 ### Software engineering
 A valid criticism of notebooks are that it encourages poor software 
@@ -45,9 +51,7 @@ engineering practice such as TDD or encapsulating the notebooks into libraries. 
 are nowhere near as developed as other IDE's but the first concerns are genuine. 
 
 
-### Notebooks on EOSC
-The EGI already successfully deployed a notebook solution. Can the functionality of binder be similarly deployed? How do notebooks fit into the 
-EOSC vision? 
+
 
 
 
