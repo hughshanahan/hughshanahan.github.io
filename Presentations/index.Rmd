@@ -1,0 +1,19 @@
+---
+title: "index.html"
+author: "Hugh Shanahan"
+date: "29/07/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Presentations
+
+
+[Australian eResearch Skilled Workforce Summit](https://hughshanahan.github.io/Presentations/AustralianeResearchSkilledWorkforceSummit)
+
+[Talk given on Careers in Maths](https://hughshanahan.github.io/Presentations/CareersInMaths)
+
+[FAIRsFAIR kick off](https://hughshanahan.github.io/Presentations/FAIRsFAIR)
