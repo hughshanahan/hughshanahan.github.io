@@ -1,7 +1,8 @@
 ---
 title: "Proposal to run a BoF on Notebooks at RDA Helsinki"
 md_document:
-    variant: markdown_github
+  variant: markdown_github
+output: pdf_document
 bibliography: references.bib
 ---
 
@@ -18,7 +19,7 @@ or do a pull request on this document.
 
 
 ## Introduction
-Notebooks, specifically Jupyter notebooks (but also notebooks based on Rmarkdown) are generating a great deal of excitement and are potentially a significant step forward in terms of reproducibility, education, code documentation and academic publishing. A recent [paper](www.ic.uff.br/~leomurta/papers/pimentel2019a.pdf) found nearly 1.2 Million unique notebooks just going through github.
+Notebooks, specifically Jupyter notebooks (but also notebooks based on Rmarkdown) are generating a great deal of excitement and are potentially a significant step forward in terms of reproducibility, education, code documentation and academic publishing. A recent[@pimentel_large-scale_nodate] [paper](www.ic.uff.br/~leomurta/papers/pimentel2019a.pdf) found nearly 1.2 Million unique notebooks just going through github.
 
 More recently the deployment of sites such as [JupyterHub](https://jupyter.org/hub), [myBinder](https://gke.mybinder.org/) and [EGI notebooks](https://notebooks.egi.eu/hub/login) mean that notebooks can be deployed on a cloud and hence obviates 
 issues with installed libraries. One potential result of this is that it would represent the easiest pathway for users to use 
