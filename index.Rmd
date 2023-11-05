@@ -1,6 +1,6 @@
 ---
 title: "Home page for Hugh Shanahan"
-author:  "[Hugh Shanahan](https://github.com/hughshanahan) at [RHUL](https://www.rhul.ac.uk/), 10/05/19"
+author:  "[Hugh Shanahan](https://github.com/hughshanahan) at [RHUL](https://www.rhul.ac.uk/), 5/11/23"
 output:
   html_document:
     fig_width: 1
