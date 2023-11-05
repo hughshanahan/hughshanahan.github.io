@@ -3,9 +3,7 @@ navbar:
   title: "HOME"
   left:
     - text: "CODATA-RDA Schools"
-      href: CODATA-RDA.html
-    - text: "FAIRsFAIR"
-      href: fairsfair.html
+      href: https://www.datascienceschools.org/
     - text: "Presentations"
       href: presentations.html
     - text: "Research"
